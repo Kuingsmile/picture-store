@@ -1,0 +1,330 @@
+12
+记录时间: 01 November 2022 03:44:47 PM
+类名: TencentImageUploadUtils
+方法名: uploadNetworkFile
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+fileLink:  https://pichoro.oss-cn-hangzhou.aliyuncs.com/ks.jpg
+element: {name: pichoro, location: oss-cn-hangzhou, CreationDate: 2022-10-29 15:10:38.000}
+prefix: 
+
+错误信息:
+RangeError (end): Invalid value: Not in inclusive range 0..6: -1
+
+是否DIO错误:
+false
+
+DIO报错信息:
+
+
+11
+记录时间: 01 November 2022 03:44:47 PM
+类名: TencentImageUploadUtils
+方法名: uploadNetworkFile
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+fileLink:  https://pichoro.oss-cn-hangzhou.aliyuncs.com/IIhyc3V2eQw5Y47ktIIkeh6E75brMc.jpg
+element: {name: pichoro, location: oss-cn-hangzhou, CreationDate: 2022-10-29 15:10:38.000}
+prefix: 
+
+错误信息:
+RangeError (end): Invalid value: Not in inclusive range 0..34: -1
+
+是否DIO错误:
+false
+
+DIO报错信息:
+
+
+10
+记录时间: 01 November 2022 03:44:47 PM
+类名: TencentImageUploadUtils
+方法名: uploadNetworkFile
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+fileLink:  https://pichoro.oss-cn-hangzhou.aliyuncs.com/x86uJAoHw7yRJR7VzaoyWy5KU7nGqW.jpg
+element: {name: pichoro, location: oss-cn-hangzhou, CreationDate: 2022-10-29 15:10:38.000}
+prefix: 
+
+错误信息:
+RangeError (end): Invalid value: Not in inclusive range 0..34: -1
+
+是否DIO错误:
+false
+
+DIO报错信息:
+
+
+9
+记录时间: 01 November 2022 03:44:47 PM
+类名: TencentImageUploadUtils
+方法名: uploadNetworkFile
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+fileLink:  https://pichoro.oss-cn-hangzhou.aliyuncs.com/vXCpi9t4B9gMqJE3vJoF2DKYfSAdBq.jpg
+element: {name: pichoro, location: oss-cn-hangzhou, CreationDate: 2022-10-29 15:10:38.000}
+prefix: 
+
+错误信息:
+RangeError (end): Invalid value: Not in inclusive range 0..34: -1
+
+是否DIO错误:
+false
+
+DIO报错信息:
+
+
+8
+记录时间: 01 November 2022 03:44:47 PM
+类名: TencentImageUploadUtils
+方法名: uploadNetworkFile
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+fileLink:  https://pichoro.oss-cn-hangzhou.aliyuncs.com/5q9J0iB0ZgG65TdsNq1AobU0JtH1DY.jpg
+element: {name: pichoro, location: oss-cn-hangzhou, CreationDate: 2022-10-29 15:10:38.000}
+prefix: 
+
+错误信息:
+RangeError (end): Invalid value: Not in inclusive range 0..34: -1
+
+是否DIO错误:
+false
+
+DIO报错信息:
+
+
+7
+记录时间: 01 November 2022 03:44:47 PM
+类名: TencentImageUploadUtils
+方法名: uploadNetworkFile
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+fileLink:  https://pichoro.oss-cn-hangzhou.aliyuncs.com/we.jpg
+element: {name: pichoro, location: oss-cn-hangzhou, CreationDate: 2022-10-29 15:10:38.000}
+prefix: 
+
+错误信息:
+RangeError (end): Invalid value: Not in inclusive range 0..6: -1
+
+是否DIO错误:
+false
+
+DIO报错信息:
+
+
+6
+记录时间: 01 November 2022 03:44:47 PM
+类名: TencentImageUploadUtils
+方法名: uploadNetworkFile
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+fileLink: https://pichoro.oss-cn-hangzhou.aliyuncs.com/test/
+element: {name: pichoro, location: oss-cn-hangzhou, CreationDate: 2022-10-29 15:10:38.000}
+prefix: 
+
+错误信息:
+RangeError (end): Invalid value: Only valid value is 0: -1
+
+是否DIO错误:
+false
+
+DIO报错信息:
+
+
+5
+记录时间: 01 November 2022 03:40:41 PM
+类名: aliyun_DownloadManager
+方法名: download
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+url: https://pichoro.oss-cn-hangzhou.aliyuncs.com/ks.jpg
+savePath: /storage/emulated/0/Download/PicHoro/Download/aliyun/pichoro/ks.jpg
+
+错误信息:
+DioError [DioErrorType.cancel]: 
+Source stack:
+#0      CancelToken.cancel (package:dio/src/cancel_token.dart:42)
+#1      DownloadManager.pauseDownload (package:horopic/picture_host_manage/aliyun/download_api/aliyun_downloader.dart:233)
+#2      AliyunUpDownloadManagePageState._createDownloadListItem.<anonymous closure> (package:horopic/picture_host_manage/aliyun/aliyun_download_manage_page.dart:64)
+#3      ListItemState.build.<anonymous closure> (package:horopic/picture_host_manage/tencent/tencent_download_manage_page.dart:350)
+#4      _InkResponseState.handleTap (package:flutter/src/material/ink_well.dart:1072)
+#5      GestureRecognizer.invokeCallback (package:flutter/src/gestures/recognizer.dart:253)
+#6      TapGestureRecognizer.handleTapUp (package:flutter/src/gestures/tap.dart:627)
+#7      BaseTapGestureRecognizer._checkUp (package:flutter/src/gestures/tap.dart:306)
+#8      BaseTapGestureRecognizer.handlePrimaryPointer (package:flutter/src/gestures/tap.dart:239)
+#9      PrimaryPointerGestureRecognizer.handleEvent (package:flutter/src/gestures/recognizer.dart:615)
+#10     PointerRouter._dispatch (package:flutter/src/gestures/pointer_router.dart:98)
+#11     PointerRouter._dispatchEventToRoutes.<anonymous closure> (package:flutter/src/gestures/pointer_router.dart:143)
+#12     _LinkedHashMapMixin.forEach (dart:collection-patch/compact_hash.dart:617)
+#13     PointerRouter._dispatchEventToRoutes (package:flutter/src/gestures/pointer_router.dart:141)
+#14     PointerRouter.route (package:flutter/src/gestures/pointer_router.dart:127)
+#15     GestureBinding.handleEvent (package:flutter/src/gestures/binding.dart:460)
+#16     GestureBinding.dispatchEvent (package:flutter/src/gestures/binding.dart:440)
+#17     RendererBinding.dispatchEvent (package:flutter/src/rendering/binding.dart:337)
+#18     GestureBinding._handlePointerEventImmediately (package:flutter/src/gestures/binding.dart:395)
+#19     GestureBinding.handlePointerEvent (package:flutter/src/gestures/binding.dart:357)
+#20     GestureBinding._flushPointerEventQueue (package:flutter/src/gestures/binding.dart:314)
+#21     GestureBinding._handlePointerDataPacket (package:flutter/src/gestures/binding.dart:295)
+#22     _invoke1 (dart:ui/hooks.dart:167)
+#23     PlatformDispatcher._dispatchPointerDataPacket (dart:ui/platform_dispatcher.dart:341)
+#24     _dispatchPointerDataPacket (dart:ui/hooks.dart:94)
+
+
+是否DIO错误:
+true
+
+DIO报错信息:
+
+
+4
+记录时间: 01 November 2022 03:36:44 PM
+类名: AliyunManageAPI
+方法名: createBucket
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+newBucketConfigMap: {bucketName: ter, region: oss-cn-hangzhou, multiAZ: false, xCosACL: public-read}
+
+错误信息:
+DioError [DioErrorType.response]: Http status error [409]
+Source stack:
+#0      DioMixin.fetch (package:dio/src/dio_mixin.dart:488)
+#1      DioMixin.request (package:dio/src/dio_mixin.dart:483)
+#2      DioMixin.put (package:dio/src/dio_mixin.dart:139)
+#3      AliyunManageAPI.createBucket (package:horopic/picture_host_manage/manage_api/aliyun_manage_api.dart:267)
+<asynchronous suspension>
+#4      AliyunNewBucketConfigState.build.<anonymous closure> (package:horopic/picture_host_manage/aliyun/aliyun_new_bucket_configure.dart:123)
+<asynchronous suspension>
+
+
+是否DIO错误:
+true
+
+DIO报错信息:
+Http status error [409]
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>BucketAlreadyExists</Code>
+  <Message>The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.</Message>
+  <RequestId>6360CC8C7CF8423636BEE063</RequestId>
+  <HostId>ter.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <BucketName>Bucket belongs to another one, bucket: ter</BucketName>
+</Error>
+
+
+3
+记录时间: 01 November 2022 03:36:40 PM
+类名: AliyunManageAPI
+方法名: createBucket
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+newBucketConfigMap: {bucketName: ter, region: oss-cn-hangzhou, multiAZ: false, xCosACL: private}
+
+错误信息:
+DioError [DioErrorType.response]: Http status error [409]
+Source stack:
+#0      DioMixin.fetch (package:dio/src/dio_mixin.dart:488)
+#1      DioMixin.request (package:dio/src/dio_mixin.dart:483)
+#2      DioMixin.put (package:dio/src/dio_mixin.dart:139)
+#3      AliyunManageAPI.createBucket (package:horopic/picture_host_manage/manage_api/aliyun_manage_api.dart:267)
+<asynchronous suspension>
+#4      AliyunNewBucketConfigState.build.<anonymous closure> (package:horopic/picture_host_manage/aliyun/aliyun_new_bucket_configure.dart:123)
+<asynchronous suspension>
+
+
+是否DIO错误:
+true
+
+DIO报错信息:
+Http status error [409]
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>BucketAlreadyExists</Code>
+  <Message>The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.</Message>
+  <RequestId>6360CC88ECB4DB3830041CDE</RequestId>
+  <HostId>ter.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <BucketName>Bucket belongs to another one, bucket: ter</BucketName>
+</Error>
+
+
+2
+记录时间: 01 November 2022 03:36:36 PM
+类名: AliyunManageAPI
+方法名: createBucket
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+newBucketConfigMap: {bucketName: ter, region: oss-cn-hangzhou, multiAZ: false, xCosACL: private}
+
+错误信息:
+DioError [DioErrorType.response]: Http status error [409]
+Source stack:
+#0      DioMixin.fetch (package:dio/src/dio_mixin.dart:488)
+#1      DioMixin.request (package:dio/src/dio_mixin.dart:483)
+#2      DioMixin.put (package:dio/src/dio_mixin.dart:139)
+#3      AliyunManageAPI.createBucket (package:horopic/picture_host_manage/manage_api/aliyun_manage_api.dart:267)
+<asynchronous suspension>
+#4      AliyunNewBucketConfigState.build.<anonymous closure> (package:horopic/picture_host_manage/aliyun/aliyun_new_bucket_configure.dart:123)
+<asynchronous suspension>
+
+
+是否DIO错误:
+true
+
+DIO报错信息:
+Http status error [409]
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>BucketAlreadyExists</Code>
+  <Message>The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.</Message>
+  <RequestId>6360CC842C1E933933534A73</RequestId>
+  <HostId>ter.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <BucketName>Bucket belongs to another one, bucket: ter</BucketName>
+</Error>
+
+
+1
+记录时间: 01 November 2022 03:36:32 PM
+类名: AliyunManageAPI
+方法名: createBucket
+日志级别: LogLevel.ERROR
+日志内容: 参数:
+
+newBucketConfigMap: {bucketName: ter, region: oss-cn-hangzhou, multiAZ: true, xCosACL: private}
+
+错误信息:
+DioError [DioErrorType.response]: Http status error [409]
+Source stack:
+#0      DioMixin.fetch (package:dio/src/dio_mixin.dart:488)
+#1      DioMixin.request (package:dio/src/dio_mixin.dart:483)
+#2      DioMixin.put (package:dio/src/dio_mixin.dart:139)
+#3      AliyunManageAPI.createBucket (package:horopic/picture_host_manage/manage_api/aliyun_manage_api.dart:264)
+<asynchronous suspension>
+#4      AliyunNewBucketConfigState.build.<anonymous closure> (package:horopic/picture_host_manage/aliyun/aliyun_new_bucket_configure.dart:123)
+<asynchronous suspension>
+
+
+是否DIO错误:
+true
+
+DIO报错信息:
+Http status error [409]
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>BucketAlreadyExists</Code>
+  <Message>The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.</Message>
+  <RequestId>6360CC80FDF07830371774CA</RequestId>
+  <HostId>ter.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <BucketName>Bucket belongs to another one, bucket: ter</BucketName>
+</Error>
+
+
